@@ -1,16 +1,28 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Concatenation Example</title>
+</head>
+<body>
 
-<!--
-**Akifa15/Akifa15** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <h2>My Fun Sentence Using Concatenation</h2>
 
-Here are some ideas to get you started:
+  <!-- This paragraph will display the result -->
+  <p id="output"></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <script>
+    // Variables with parts of the sentence
+    var phraseStart = "How much I love to combine ";
+    var food = "HotDog";
+    var extra = "Jelly";
+
+    // Concatenate the parts together
+    var fullSentence = phraseStart + food + extra;
+
+    // Show the sentence on the page
+    document.getElementById("output").textContent = fullSentence;
+  </script>
+
+</body>
+</html>
+
